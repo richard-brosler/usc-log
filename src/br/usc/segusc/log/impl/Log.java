@@ -22,7 +22,7 @@ public class Log implements ILogService{
 		switch (nivelLog) {
 			case WARNING: tipo = "Aviso: "; break;
 			case ERROR: tipo = "Erro: "; break;
-			default : tipo = "Tnformativo: ";
+			default : tipo = "Informativo: ";
 		}
 		System.out.println(tipo + mensagem);
 	}
